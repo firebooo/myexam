@@ -1,0 +1,43 @@
+Arguments: 
+  F:\Study tool\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-cookie
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\Java\jdk-12.0.2\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;F:\Study tool\MySQL\bin;F:\Study tool\nodejs\;C:\WINDOWS\System32\OpenSSH\;F:\Study tool\Python37\Scripts\;F:\Study tool\Python37\;F:\Study tool\Scripts\;F:\Study tool\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;D:\phpstudy_pro\Extensions\composer1.8.5;D:\phpstudy_pro\Extensions\php\php7.3.9nts;F:\Study tool\Dev\Dev-Cpp\MinGW64\bin;D:\phpstudy_pro\Extensions\MySQL8.0.12\bin;F:\Study tool\IntelliJ IDEA 2019.2\bin;;F:\Study tool\WebStorm 2019.3.2\bin;;F:\Study tool\Microsoft VS Code\bin;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\MongoDB\Server\4.4\bin;
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v6\npm-inherits-2.0.4-0fa2c64f932917c3433a0ded55363aae37416b7c-integrity\node_modules\inherits\inherits.js' -> 'C:\Users\Administrator\Desktop\exam-server\node_modules\send\node_modules\inherits\inherits.js'
+
+npm manifest: 
+  {
+    "name": "exam-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "cookie-parser": "^1.4.5",
+      "express": "^4.17.1",
+      "express-session": "^1.17.2",
+      "formidable": "^1.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
